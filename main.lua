@@ -24,6 +24,13 @@
 
         - Xylex/7GrandDad - developer / organizer
 ]]--
+pcall(function()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Velocity",
+        Text = "Running YOUR VelocityUniversal",
+        Duration = 5
+    })
+end)
 
 local cloneref: (obj: any) -> any = cloneref or function(obj)
         return obj;
